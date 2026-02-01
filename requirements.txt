@@ -14,3 +14,4 @@ loguru
 sqlalchemy
 asyncpg
 greenlet
+psycopg2-binary
