@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+websockets
+python-dotenv
+deepgram-sdk
+groq
+elevenlabs
+supabase
+python-multipart
+requests
