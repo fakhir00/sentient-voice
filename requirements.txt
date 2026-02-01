@@ -1,6 +1,7 @@
 fastapi
 uvicorn
-websockets
+pydantic
+pydantic-settings
 python-dotenv
 deepgram-sdk
 groq
@@ -8,3 +9,4 @@ elevenlabs
 supabase
 python-multipart
 requests
+websockets
