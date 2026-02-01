@@ -29,6 +29,7 @@ class DeepgramTranscriber(BaseWorker):
             "language": "en-US",
             "smart_format": True,
             "interim_results": True,
+            "endpointing": 300,
         }
 
         # Events

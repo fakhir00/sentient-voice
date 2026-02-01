@@ -59,7 +59,7 @@ export default function LiveCallMonitor() {
 
                 // 4. Start MediaRecorder
                 console.log("Starting MediaRecorder...");
-                const recorder = new MediaRecorder(stream, { mimeType: 'audio/webm' });
+                const recorder = new MediaRecorder(stream, { mimeType: 'audio/webm;codecs=opus' });
                 mediaRecorderRef.current = recorder;
 
                 recorder.ondataavailable = (event) => {
